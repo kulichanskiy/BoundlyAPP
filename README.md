@@ -2,6 +2,8 @@
 
 Boundly is a modern web application for dating, integrated with Telegram. Inspired by the functionality of Tinder, it allows users to swipe, find matches, and chat effortlessly.
 
+## 🔗 Link to Telegram Bot: https://t.me/BoundlyBot
+
 ## 🚀 Features
 - User registration and login via Telegram.
 - Simple swipe interface for finding matches.
@@ -22,7 +24,7 @@ To run the application, ensure you have the following installed:
   pip install -r requirements.txt  #designing in progress
 
 ## 📂 Project Structure
-
+```bash
 Boundly/
 ├── server/                   ## BACKEND
 │   ├── 
