@@ -42,3 +42,7 @@ Boundly/
 |   ├── main_window.html      # Main application (Web Version)
 ├── requirements.txt          # Python dependencies (WIP)
 ├── README.md                 # Project documentation
+```
+
+## 📄 License
+This project is distributed under the MIT [LICENSE](./LICENSE). See LICENSE for more details.
