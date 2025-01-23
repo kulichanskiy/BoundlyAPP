@@ -45,4 +45,4 @@ Boundly/
 ```
 
 ## 📄 License
-This project is distributed under the MIT [LICENSE](./LICENSE). See LICENSE for more details.
+This project is distributed under the MIT LICENSE. See [LICENSE](./LICENSE). for more details.
