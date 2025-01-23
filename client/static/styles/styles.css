@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+
+.app {
+    width: 100%;
+    flex: 1;
+}
+
+.header {
+    background-color: black;
+    justify-content: left;
+    width: 100%;
+    box-shadow: 1px 1px 4px black;
+}
+
+.header img {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.card-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(207, 0, 170);
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-button {
+    display: inline;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    text-align: center;
+}
+
+.footer-btn-text {
+    color: white;
+    font-size: 12px;
+}
+
+#like {
+    background-color: #28a745;
+    color: white;
+}
+
+#dislike {
+    background-color: #dc3545;
+    color: white;
+}
