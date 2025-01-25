@@ -24,10 +24,12 @@ body {
     margin-top: 2px;
 }
 
-.card-container {
+.card-page {
     position: relative;
     width: 300px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -73,11 +75,44 @@ body {
     padding-left: 1.5vh;
     padding-right: 1.5vh;
     text-align: center;
+    z-index: 3;
+    position: relative;
+}
+
+.footer-btn-icon {
+    width: 30px;
+    height: 30px;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round; 
+    stroke-width: 0.065;
+    
 }
 
 .footer-btn-text {
     color: white;
     font-size: 12px;
+    z-index: 2;
+}
+
+.footer-slider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    transition: left 0.3s ease;
+    pointer-events: none;
+}
+
+.footer-button.active .footer-btn-text {
+    color: rgb(129, 3, 187);
+}
+
+.footer-button.active .footer-btn-icon {
+    stroke: rgb(129, 3, 187);
 }
 
 #like {
