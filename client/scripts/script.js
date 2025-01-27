@@ -6,17 +6,15 @@ const eventsTabBtn = document.getElementById(".events-tab-btn");
 const newsTabBtn = document.getElementById(".news-tab-btn");
 const profileTabBtn = document.getElementById(".profile-tab-btn");
 
-document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll(".footer-button");
-    const slider = document.querySelector(".footer-slider");
+const footerButtons = document.querySelectorAll('.footer-button');
+const tabs = document.querySelectorAll('.card-page');
 
-    buttons.forEach((button, index) => {
-        const moveSlider = () => {
-            slider.style.left = `${index * 20}%`;
-        };
-
-        // Добавляем обработчики для мыши и сенсора
-        button.addEventListener("mouseenter", moveSlider);
-        button.addEventListener("touchstart", moveSlider);
+footerButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        // Переключаемся на вкладку по индексу
+        switchTab(index);
+        // Обновляем активное состояние кнопок
+        footerButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
     });
 });
