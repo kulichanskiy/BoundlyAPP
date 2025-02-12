@@ -5,7 +5,7 @@ from jinja2 import Environment, FileSystemLoader
 
 app = Flask(__name__)
 
-BOT_TOKEN = "8134102376:AAGI_JLFrOiL5DLEM-zlFu_qSzYn1bgbYw0"
+BOT_TOKEN = "-"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Главная страница веб-приложения
